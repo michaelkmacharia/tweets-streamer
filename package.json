@@ -1,0 +1,38 @@
+{
+  "name": "tweets-streamer",
+  "version": "1.0.0",
+  "description": "A NodeJS-based webapp for streaming users' Tweets.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "prod": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/tweets-streamer.git"
+  },
+  "keywords": [
+    "tweets",
+    "streamer",
+    "tweets-streamer"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/tweets-streamer/issues"
+  },
+  "homepage": "https://github.com/universal-projects/tweets-streamer#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.3",
+		"http": "0.0.1-security",
+		"needle": "^2.5.2",
+		"path": "^0.0.1",
+		"socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
